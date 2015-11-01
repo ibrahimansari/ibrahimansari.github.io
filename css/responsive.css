@@ -1,0 +1,104 @@
+@media (min-width: 768px) and (max-width: 1024px) {
+  .title-small {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  #resume .content h2 {
+    font-size: 20px;
+    line-height: 30px;
+  }
+  #resume img {
+    width: 100%;
+  }
+  #projects .portfolio figure figcaption .heading {
+    padding: 0 30px;
+  }
+}
+@media (max-width: 568px) {
+  #portfolio .portfolio-items figure {
+    width: 100%;
+  }
+  #portfolio .portfolio-items figure figcaption .info {
+    margin-top: 120px;
+  }
+  #contact .info-inner {
+    padding-left: 15px;
+  }
+}
+@media (max-width: 480px) {
+  .section {
+    padding: 50px 0;
+  }
+  .section-header .section-title {
+    font-size: 24px;
+  }
+  .section-header .section-subtitle {
+    font-size: 11px;
+  }
+  .title-small {
+    font-size: 22px;
+    line-height: 28px;
+  }
+  .navbar .navbar-header {
+    padding: 13px 22px;
+    float: left;
+  }
+  .navbar .navbar-right {
+    float: right;
+  }
+  .main-bg .contents {
+    padding-top: 50px;
+  }
+  .main-bg .contents h1 {
+    font-size: 20px;
+  }
+  .main-bg .contents p {
+    font-size: 14px;
+  }
+  #skills .skills h4 {
+    font-size: 14px;
+  }
+  #skills .skills .icon i {
+    padding-right: 22px;
+  }
+  #resume .content h2 {
+    font-size: 20px;
+    line-height: 30px;
+  }
+  #resume .content .list-item li {
+    font-size: 14px;
+  }
+  #resume .content .btn {
+    margin-bottom: 60px;
+  }
+  #resume img {
+    width: 100%;
+  }
+  #projects .portfolio figure figcaption .heading {
+    padding: 0;
+    top: 5%;
+  }
+  #projects .portfolio figcaption:hover .heading {
+    top: 15%;
+  }
+  #events .client-item-wrapper {
+    margin-bottom: 30px;
+  }
+  #contact .section-title {
+    font-size: 22px;
+  }
+  #contact .info h4 {
+    font-size: 18px;
+  }
+}
+@media (max-width: 640px) and (min-width: 960px) {
+  .navbar-header {
+    width: 100px;
+    float: left;
+    padding-left: 7px !important;
+  }
+  .navbar-right {
+    float: right;
+    width: 100px;
+  }
+}
